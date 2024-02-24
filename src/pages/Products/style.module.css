@@ -1,0 +1,84 @@
+
+.mainDiv {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* background-image: url('https: //st.depositphotos.com/33704592/57548/i/450/depositphotos_575483296-stock-photo-abstract-futuristic-minimal-wall-scene.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+
+.mainDiv > h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+h4 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+
+.prodTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.prodTable th,
+.prodTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.prodTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.prodTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.prodTable tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+
+button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

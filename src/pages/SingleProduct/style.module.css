@@ -1,0 +1,41 @@
+.mainDiv {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(131, 204, 218);
+}
+
+.mainDiv>h1 {
+    font-size: 36px;
+    color: rgb(131, 204, 218);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.prodDiv {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.prodDiv>h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.prodDiv>h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.prodDiv>p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.prodDiv>img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
